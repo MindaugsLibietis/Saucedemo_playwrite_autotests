@@ -1,10 +1,15 @@
 import { defineConfig, devices } from '@playwright/test';
+import { defineBddConfig } from 'playwright-bdd';
 import dotenv from 'dotenv';
 import path from 'path';
 
 // Read from .env file
 dotenv.config({ path: path.resolve(__dirname, '.env') });
 
+const testDir = defineBddConfig({
+  features: 'features/**/*.feature',
+  steps: 'features/steps/**/*.ts',
+});
 
 /**
  * Read environment variables from file.
@@ -18,7 +23,7 @@ dotenv.config({ path: path.resolve(__dirname, '.env') });
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: './tests',
+  testDir,
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
