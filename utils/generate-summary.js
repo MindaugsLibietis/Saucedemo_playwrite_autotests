@@ -23,10 +23,18 @@ try {
 
   const statusEmoji = failed > 0 ? '❌ FAILED' : '✅ PASSED';
 
+  const repo = process.env.GITHUB_REPOSITORY;
+  let liveReportLink = '';
+  if (repo) {
+    const [owner, repoName] = repo.split('/');
+    const pagesUrl = `https://${owner}.github.io/${repoName}/`;
+    liveReportLink = `\n* 🔗 **[View Live HTML Report with Screenshots](${pagesUrl})**`;
+  }
+
   let markdown = `### 🎭 Playwright Test Run Summary
 
 * **Run Status:** ${statusEmoji}
-* **Triggered by:** \`${process.env.GITHUB_TRIGGERING_ACTOR || 'CI System'}\` on \`${process.env.GITHUB_REF_NAME || 'branch'}\`
+* **Triggered by:** \`${process.env.GITHUB_TRIGGERING_ACTOR || 'CI System'}\` on \`${process.env.GITHUB_REF_NAME || 'branch'}\`${liveReportLink}
 
 | Total Tests | Passed ✅ | Failed ❌ | Flaky ⚠️ | Skipped ⏭️ | Duration |
 | :---: | :---: | :---: | :---: | :---: | :---: |
