@@ -1,0 +1,4016 @@
+{
+  "config": {
+    "argv": [
+      "/opt/hostedtoolcache/node/24.18.0/x64/bin/node",
+      "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/node_modules/.bin/playwright",
+      "test"
+    ],
+    "configFile": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/playwright.config.ts",
+    "rootDir": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": true,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "ci": {
+        "commitHref": "https://github.com/MindaugsLibietis/Saucedemo_playwrite_autotests/commit/4e347003e1de17379a8487280b110eb74c04e77b",
+        "commitHash": "4e347003e1de17379a8487280b110eb74c04e77b",
+        "buildHref": "https://github.com/MindaugsLibietis/Saucedemo_playwrite_autotests/actions/runs/30705356354"
+      },
+      "gitCommit": {
+        "shortHash": "4e34700",
+        "hash": "4e347003e1de17379a8487280b110eb74c04e77b",
+        "subject": "feat: hosting github pages for playwrite html reports",
+        "body": "feat: hosting github pages for playwrite html reports\n",
+        "author": {
+          "name": "unknown",
+          "email": "dpikse@gmail.com",
+          "time": 1785597047000
+        },
+        "committer": {
+          "name": "unknown",
+          "email": "dpikse@gmail.com",
+          "time": 1785597047000
+        },
+        "branch": "main"
+      },
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/MindaugsLibietis/Saucedemo_playwrite_autotests/commit/4e347003e1de17379a8487280b110eb74c04e77b",
+            "commitHash": "4e347003e1de17379a8487280b110eb74c04e77b",
+            "buildHref": "https://github.com/MindaugsLibietis/Saucedemo_playwrite_autotests/actions/runs/30705356354"
+          },
+          "gitCommit": {
+            "shortHash": "4e34700",
+            "hash": "4e347003e1de17379a8487280b110eb74c04e77b",
+            "subject": "feat: hosting github pages for playwrite html reports",
+            "body": "feat: hosting github pages for playwrite html reports\n",
+            "author": {
+              "name": "unknown",
+              "email": "dpikse@gmail.com",
+              "time": 1785597047000
+            },
+            "committer": {
+              "name": "unknown",
+              "email": "dpikse@gmail.com",
+              "time": 1785597047000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/MindaugsLibietis/Saucedemo_playwrite_autotests/commit/4e347003e1de17379a8487280b110eb74c04e77b",
+            "commitHash": "4e347003e1de17379a8487280b110eb74c04e77b",
+            "buildHref": "https://github.com/MindaugsLibietis/Saucedemo_playwrite_autotests/actions/runs/30705356354"
+          },
+          "gitCommit": {
+            "shortHash": "4e34700",
+            "hash": "4e347003e1de17379a8487280b110eb74c04e77b",
+            "subject": "feat: hosting github pages for playwrite html reports",
+            "body": "feat: hosting github pages for playwrite html reports\n",
+            "author": {
+              "name": "unknown",
+              "email": "dpikse@gmail.com",
+              "time": 1785597047000
+            },
+            "committer": {
+              "name": "unknown",
+              "email": "dpikse@gmail.com",
+              "time": 1785597047000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/MindaugsLibietis/Saucedemo_playwrite_autotests/commit/4e347003e1de17379a8487280b110eb74c04e77b",
+            "commitHash": "4e347003e1de17379a8487280b110eb74c04e77b",
+            "buildHref": "https://github.com/MindaugsLibietis/Saucedemo_playwrite_autotests/actions/runs/30705356354"
+          },
+          "gitCommit": {
+            "shortHash": "4e34700",
+            "hash": "4e347003e1de17379a8487280b110eb74c04e77b",
+            "subject": "feat: hosting github pages for playwrite html reports",
+            "body": "feat: hosting github pages for playwrite html reports\n",
+            "author": {
+              "name": "unknown",
+              "email": "dpikse@gmail.com",
+              "time": 1785597047000
+            },
+            "committer": {
+              "name": "unknown",
+              "email": "dpikse@gmail.com",
+              "time": 1785597047000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "playwright-report/results.json"
+        }
+      ],
+      [
+        "github",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "login.spec.ts",
+      "file": "login.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "SauceDemo - Login Tests",
+          "file": "login.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should login successfully as standard_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 482,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:03.407Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/login-SauceDemo---Login-Te-74220-ccessfully-as-standard-user-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-51a171b5933a6ae891a1",
+              "file": "login.spec.ts",
+              "line": 6,
+              "column": 7
+            },
+            {
+              "title": "should not be able to login with locked_out_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 334,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:04.669Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/login-SauceDemo---Login-Te-4adaf--login-with-locked-out-user-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-2c91b95a64935d38e7d0",
+              "file": "login.spec.ts",
+              "line": 22,
+              "column": 7
+            },
+            {
+              "title": "should login successfully as problem_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 412,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:05.025Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/login-SauceDemo---Login-Te-33b0a-uccessfully-as-problem-user-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-1a439b7807adcbe45639",
+              "file": "login.spec.ts",
+              "line": 36,
+              "column": 7
+            },
+            {
+              "title": "should login successfully as performance_glitch_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5417,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:05.451Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/login-SauceDemo---Login-Te-305d6--as-performance-glitch-user-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-40d45b3e9898b497fac7",
+              "file": "login.spec.ts",
+              "line": 52,
+              "column": 7
+            },
+            {
+              "title": "should login successfully as error_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 387,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:10.880Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/login-SauceDemo---Login-Te-591d9--successfully-as-error-user-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-619a8bd52fbd71b1214b",
+              "file": "login.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "should login successfully as visual_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 393,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:11.282Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/login-SauceDemo---Login-Te-cbbba-successfully-as-visual-user-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-32c0851837dc81397b2b",
+              "file": "login.spec.ts",
+              "line": 84,
+              "column": 7
+            },
+            {
+              "title": "should login successfully as standard_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1725,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:24.653Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/login-SauceDemo---Login-Te-74220-ccessfully-as-standard-user-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-e1013c35b53efad934a8",
+              "file": "login.spec.ts",
+              "line": 6,
+              "column": 7
+            },
+            {
+              "title": "should not be able to login with locked_out_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 555,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:26.904Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/login-SauceDemo---Login-Te-4adaf--login-with-locked-out-user-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-ada14d86ddf0708d3f71",
+              "file": "login.spec.ts",
+              "line": 22,
+              "column": 7
+            },
+            {
+              "title": "should login successfully as problem_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 608,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:27.475Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/login-SauceDemo---Login-Te-33b0a-uccessfully-as-problem-user-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-9485217df41e06516ef7",
+              "file": "login.spec.ts",
+              "line": 36,
+              "column": 7
+            },
+            {
+              "title": "should login successfully as performance_glitch_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5608,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:28.098Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/login-SauceDemo---Login-Te-305d6--as-performance-glitch-user-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-9669365a937a87a7166f",
+              "file": "login.spec.ts",
+              "line": 52,
+              "column": 7
+            },
+            {
+              "title": "should login successfully as error_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 629,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:33.720Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/login-SauceDemo---Login-Te-591d9--successfully-as-error-user-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-02c5c88005070bae68d5",
+              "file": "login.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "should login successfully as visual_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 613,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:34.362Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/login-SauceDemo---Login-Te-cbbba-successfully-as-visual-user-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-b697191c4ef04cdc7511",
+              "file": "login.spec.ts",
+              "line": 84,
+              "column": 7
+            },
+            {
+              "title": "should login successfully as standard_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5627,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:59.715Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/login-SauceDemo---Login-Te-74220-ccessfully-as-standard-user-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-b5bdd6ecf41ee6f23f55",
+              "file": "login.spec.ts",
+              "line": 6,
+              "column": 7
+            },
+            {
+              "title": "should not be able to login with locked_out_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 822,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:06.009Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/login-SauceDemo---Login-Te-4adaf--login-with-locked-out-user-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-6d94a39c3c854b9d02d1",
+              "file": "login.spec.ts",
+              "line": 22,
+              "column": 7
+            },
+            {
+              "title": "should login successfully as problem_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 923,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:06.845Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/login-SauceDemo---Login-Te-33b0a-uccessfully-as-problem-user-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-7799d61f2eef67b9ed5f",
+              "file": "login.spec.ts",
+              "line": 36,
+              "column": 7
+            },
+            {
+              "title": "should login successfully as performance_glitch_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5877,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:07.783Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/login-SauceDemo---Login-Te-305d6--as-performance-glitch-user-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-3db00e9aaa8ffe5b26d1",
+              "file": "login.spec.ts",
+              "line": 52,
+              "column": 7
+            },
+            {
+              "title": "should login successfully as error_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 821,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:13.675Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/login-SauceDemo---Login-Te-591d9--successfully-as-error-user-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-cc7cecc3d2a72ba383b9",
+              "file": "login.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "should login successfully as visual_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 939,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:14.509Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/login-SauceDemo---Login-Te-cbbba-successfully-as-visual-user-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-3fe492a719e586a4a0a1",
+              "file": "login.spec.ts",
+              "line": 84,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "saucedemo.spec.ts",
+      "file": "saucedemo.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Feature 1: Inventory & Product Sorting",
+          "file": "saucedemo.spec.ts",
+          "line": 23,
+          "column": 6,
+          "specs": [
+            {
+              "title": "View product list default state",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 548,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/view_product_list_default_state_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:11.695Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-1-Invent-0bdf5--product-list-default-state-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-9cec6851b910e7113821",
+              "file": "saucedemo.spec.ts",
+              "line": 31,
+              "column": 7
+            },
+            {
+              "title": "Sort products by different criteria - Name (A to Z)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 504,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/sort_products_by_different_criteria_name_a_to_z__passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:12.255Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-1-Invent-39928-ent-criteria---Name-A-to-Z--chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-ca020c7106a53517bcd0",
+              "file": "saucedemo.spec.ts",
+              "line": 56,
+              "column": 9
+            },
+            {
+              "title": "Sort products by different criteria - Name (Z to A)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 487,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/sort_products_by_different_criteria_name_z_to_a__passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:12.773Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-1-Invent-d7f6b-ent-criteria---Name-Z-to-A--chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-e667988c5810604aecb3",
+              "file": "saucedemo.spec.ts",
+              "line": 56,
+              "column": 9
+            },
+            {
+              "title": "Sort products by different criteria - Price (low to high)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 488,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/sort_products_by_different_criteria_price_low_to_high__passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:13.272Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-1-Invent-f47cf-iteria---Price-low-to-high--chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-c22dcac4ab46e8d861fe",
+              "file": "saucedemo.spec.ts",
+              "line": 56,
+              "column": 9
+            },
+            {
+              "title": "Sort products by different criteria - Price (high to low)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 502,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/sort_products_by_different_criteria_price_high_to_low__passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:13.774Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-1-Invent-12d40-iteria---Price-high-to-low--chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-6e9f03d055f2b2a5828b",
+              "file": "saucedemo.spec.ts",
+              "line": 56,
+              "column": 9
+            },
+            {
+              "title": "Navigate to Product Details Page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 472,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/navigate_to_product_details_page_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:14.288Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-1-Invent-d0f3c-ate-to-Product-Details-Page-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-7c508b956349e86a5fef",
+              "file": "saucedemo.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "View product list default state",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 839,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/view_product_list_default_state_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:34.994Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-1-Invent-0bdf5--product-list-default-state-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-c0e9ad201646aa814bac",
+              "file": "saucedemo.spec.ts",
+              "line": 31,
+              "column": 7
+            },
+            {
+              "title": "Sort products by different criteria - Name (A to Z)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 780,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/sort_products_by_different_criteria_name_a_to_z__passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:35.853Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-1-Invent-39928-ent-criteria---Name-A-to-Z--firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-4ef65dfd2b7c93232439",
+              "file": "saucedemo.spec.ts",
+              "line": 56,
+              "column": 9
+            },
+            {
+              "title": "Sort products by different criteria - Name (Z to A)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 714,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/sort_products_by_different_criteria_name_z_to_a__passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:36.670Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-1-Invent-d7f6b-ent-criteria---Name-Z-to-A--firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-050a07efec6439d3973d",
+              "file": "saucedemo.spec.ts",
+              "line": 56,
+              "column": 9
+            },
+            {
+              "title": "Sort products by different criteria - Price (low to high)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1892,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/sort_products_by_different_criteria_price_low_to_high__passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:37.397Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-1-Invent-f47cf-iteria---Price-low-to-high--firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-6169fb6b11ca6a6f59ed",
+              "file": "saucedemo.spec.ts",
+              "line": 56,
+              "column": 9
+            },
+            {
+              "title": "Sort products by different criteria - Price (high to low)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1185,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/sort_products_by_different_criteria_price_high_to_low__passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:39.311Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-1-Invent-12d40-iteria---Price-high-to-low--firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-fe9187527f2552cd4da5",
+              "file": "saucedemo.spec.ts",
+              "line": 56,
+              "column": 9
+            },
+            {
+              "title": "Navigate to Product Details Page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 733,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/navigate_to_product_details_page_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:40.508Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-1-Invent-d0f3c-ate-to-Product-Details-Page-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-2597dc824d4d4a27e3be",
+              "file": "saucedemo.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "View product list default state",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1416,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/view_product_list_default_state_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:15.472Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-1-Invent-0bdf5--product-list-default-state-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-1b9f7ed5de4a15181f05",
+              "file": "saucedemo.spec.ts",
+              "line": 31,
+              "column": 7
+            },
+            {
+              "title": "Sort products by different criteria - Name (A to Z)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1300,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/sort_products_by_different_criteria_name_a_to_z__passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:16.907Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-1-Invent-39928-ent-criteria---Name-A-to-Z--webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-4981487ce89d70c8991e",
+              "file": "saucedemo.spec.ts",
+              "line": 56,
+              "column": 9
+            },
+            {
+              "title": "Sort products by different criteria - Name (Z to A)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1329,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/sort_products_by_different_criteria_name_z_to_a__passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:18.223Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-1-Invent-d7f6b-ent-criteria---Name-Z-to-A--webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-735282c93a67ef70e7a3",
+              "file": "saucedemo.spec.ts",
+              "line": 56,
+              "column": 9
+            },
+            {
+              "title": "Sort products by different criteria - Price (low to high)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1309,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/sort_products_by_different_criteria_price_low_to_high__passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:19.567Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-1-Invent-f47cf-iteria---Price-low-to-high--webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-bd29834394392b2e5439",
+              "file": "saucedemo.spec.ts",
+              "line": 56,
+              "column": 9
+            },
+            {
+              "title": "Sort products by different criteria - Price (high to low)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1271,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/sort_products_by_different_criteria_price_high_to_low__passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:20.889Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-1-Invent-12d40-iteria---Price-high-to-low--webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-0e7774e45a1adc41d445",
+              "file": "saucedemo.spec.ts",
+              "line": 56,
+              "column": 9
+            },
+            {
+              "title": "Navigate to Product Details Page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1162,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/navigate_to_product_details_page_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:22.173Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-1-Invent-d0f3c-ate-to-Product-Details-Page-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-a145305c91db028f7996",
+              "file": "saucedemo.spec.ts",
+              "line": 68,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Feature 2: Shopping Cart Management",
+          "file": "saucedemo.spec.ts",
+          "line": 84,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Add items to cart from Inventory page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 524,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/add_items_to_cart_from_inventory_page_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:14.772Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-2-Shoppi-f350c-to-cart-from-Inventory-page-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-a35c2fcdd35410a5c07b",
+              "file": "saucedemo.spec.ts",
+              "line": 91,
+              "column": 7
+            },
+            {
+              "title": "Remove item from cart on Inventory page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 536,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/remove_item_from_cart_on_inventory_page_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:15.309Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-2-Shoppi-7359e-from-cart-on-Inventory-page-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-fde9a621911df20b7049",
+              "file": "saucedemo.spec.ts",
+              "line": 105,
+              "column": 7
+            },
+            {
+              "title": "Add and remove items from Product Details page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 588,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/add_and_remove_items_from_product_details_page_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:15.855Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-2-Shoppi-2475e-s-from-Product-Details-page-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-0a2faa9c31a3d5dd178b",
+              "file": "saucedemo.spec.ts",
+              "line": 123,
+              "column": 7
+            },
+            {
+              "title": "Verify cart contents",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 508,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/verify_cart_contents_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:16.452Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-2-Shoppi-5542d-gement-Verify-cart-contents-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-0f9b3f55f1d4550a6088",
+              "file": "saucedemo.spec.ts",
+              "line": 145,
+              "column": 7
+            },
+            {
+              "title": "Add items to cart from Inventory page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 702,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/add_items_to_cart_from_inventory_page_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:41.253Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-2-Shoppi-f350c-to-cart-from-Inventory-page-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-8f607a2686eca6e4bab2",
+              "file": "saucedemo.spec.ts",
+              "line": 91,
+              "column": 7
+            },
+            {
+              "title": "Remove item from cart on Inventory page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 794,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/remove_item_from_cart_on_inventory_page_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:41.968Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-2-Shoppi-7359e-from-cart-on-Inventory-page-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-2252e97281083afc3a58",
+              "file": "saucedemo.spec.ts",
+              "line": 105,
+              "column": 7
+            },
+            {
+              "title": "Add and remove items from Product Details page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 880,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/add_and_remove_items_from_product_details_page_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:42.774Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-2-Shoppi-2475e-s-from-Product-Details-page-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-bcdd32b842cffedac81a",
+              "file": "saucedemo.spec.ts",
+              "line": 123,
+              "column": 7
+            },
+            {
+              "title": "Verify cart contents",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 805,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/verify_cart_contents_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:43.672Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-2-Shoppi-5542d-gement-Verify-cart-contents-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-1db05fb1f616c6269cd0",
+              "file": "saucedemo.spec.ts",
+              "line": 145,
+              "column": 7
+            },
+            {
+              "title": "Add items to cart from Inventory page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1361,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/add_items_to_cart_from_inventory_page_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:23.347Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-2-Shoppi-f350c-to-cart-from-Inventory-page-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-34290181b3b004bc8ff3",
+              "file": "saucedemo.spec.ts",
+              "line": 91,
+              "column": 7
+            },
+            {
+              "title": "Remove item from cart on Inventory page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1409,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/remove_item_from_cart_on_inventory_page_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:24.721Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-2-Shoppi-7359e-from-cart-on-Inventory-page-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-5f2792db6e17982b1713",
+              "file": "saucedemo.spec.ts",
+              "line": 105,
+              "column": 7
+            },
+            {
+              "title": "Add and remove items from Product Details page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1482,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/add_and_remove_items_from_product_details_page_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:26.141Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-2-Shoppi-2475e-s-from-Product-Details-page-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-5504ace51fb2ca226a44",
+              "file": "saucedemo.spec.ts",
+              "line": 123,
+              "column": 7
+            },
+            {
+              "title": "Verify cart contents",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1158,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/verify_cart_contents_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:27.634Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-2-Shoppi-5542d-gement-Verify-cart-contents-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-5e884ee4a0b40e1b4ceb",
+              "file": "saucedemo.spec.ts",
+              "line": 145,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Feature 3: Checkout Process",
+          "file": "saucedemo.spec.ts",
+          "line": 167,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Complete full successful checkout (Happy Path)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 599,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/complete_full_successful_checkout_happy_path__passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:16.973Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-6f4c1-essful-checkout-Happy-Path--chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-0f0387c1ad3ca3c98ee2",
+              "file": "saucedemo.spec.ts",
+              "line": 174,
+              "column": 7
+            },
+            {
+              "title": "Attempt checkout with an empty cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 453,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/attempt_checkout_with_an_empty_cart_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:17.583Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-b26c2-checkout-with-an-empty-cart-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-6b28e183b0f3f6152e50",
+              "file": "saucedemo.spec.ts",
+              "line": 206,
+              "column": 7
+            },
+            {
+              "title": "Checkout form validation errors - Error: First Name is required",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 555,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/checkout_form_validation_errors_error_first_name_is_required_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:18.049Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-56040-rror-First-Name-is-required-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-dec5fdc2fba156e46bd6",
+              "file": "saucedemo.spec.ts",
+              "line": 232,
+              "column": 9
+            },
+            {
+              "title": "Checkout form validation errors - Error: Last Name is required",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 586,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/checkout_form_validation_errors_error_last_name_is_required_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:18.617Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-52504-Error-Last-Name-is-required-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-188afb5dce9878afd80a",
+              "file": "saucedemo.spec.ts",
+              "line": 232,
+              "column": 9
+            },
+            {
+              "title": "Checkout form validation errors - Error: Postal Code is required",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 573,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/checkout_form_validation_errors_error_postal_code_is_required_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:19.215Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-5c435-ror-Postal-Code-is-required-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-83784cb7091bd882cc86",
+              "file": "saucedemo.spec.ts",
+              "line": 232,
+              "column": 9
+            },
+            {
+              "title": "Cancel checkout at Information step",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 515,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/cancel_checkout_at_information_step_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:19.800Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-f5174-heckout-at-Information-step-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-c473b13e74426042fdb4",
+              "file": "saucedemo.spec.ts",
+              "line": 251,
+              "column": 7
+            },
+            {
+              "title": "Cancel checkout at Overview step",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 661,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/cancel_checkout_at_overview_step_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:20.333Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-d8538-l-checkout-at-Overview-step-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-5e06a447dab21cf70071",
+              "file": "saucedemo.spec.ts",
+              "line": 268,
+              "column": 7
+            },
+            {
+              "title": "Complete full successful checkout (Happy Path)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 963,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/complete_full_successful_checkout_happy_path__passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:44.489Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-6f4c1-essful-checkout-Happy-Path--firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-120572ce684d45195ff4",
+              "file": "saucedemo.spec.ts",
+              "line": 174,
+              "column": 7
+            },
+            {
+              "title": "Attempt checkout with an empty cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 728,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/attempt_checkout_with_an_empty_cart_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:45.467Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-b26c2-checkout-with-an-empty-cart-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-ff975dcb928cef146de5",
+              "file": "saucedemo.spec.ts",
+              "line": 206,
+              "column": 7
+            },
+            {
+              "title": "Checkout form validation errors - Error: First Name is required",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 857,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/checkout_form_validation_errors_error_first_name_is_required_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:46.207Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-56040-rror-First-Name-is-required-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-d0253ef9f2c49adfbb45",
+              "file": "saucedemo.spec.ts",
+              "line": 232,
+              "column": 9
+            },
+            {
+              "title": "Checkout form validation errors - Error: Last Name is required",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3599,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/checkout_form_validation_errors_error_last_name_is_required_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:47.080Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-52504-Error-Last-Name-is-required-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-1dee4b55233c48c79775",
+              "file": "saucedemo.spec.ts",
+              "line": 232,
+              "column": 9
+            },
+            {
+              "title": "Checkout form validation errors - Error: Postal Code is required",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1047,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/checkout_form_validation_errors_error_postal_code_is_required_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:50.690Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-5c435-ror-Postal-Code-is-required-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-f26cf477af230fce236d",
+              "file": "saucedemo.spec.ts",
+              "line": 232,
+              "column": 9
+            },
+            {
+              "title": "Cancel checkout at Information step",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 867,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/cancel_checkout_at_information_step_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:51.748Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-f5174-heckout-at-Information-step-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-f9bef9f5c9abf2fcae9e",
+              "file": "saucedemo.spec.ts",
+              "line": 251,
+              "column": 7
+            },
+            {
+              "title": "Cancel checkout at Overview step",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1065,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/cancel_checkout_at_overview_step_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:52.627Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-d8538-l-checkout-at-Overview-step-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-8f7742277510cb8a5311",
+              "file": "saucedemo.spec.ts",
+              "line": 268,
+              "column": 7
+            },
+            {
+              "title": "Complete full successful checkout (Happy Path)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1273,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/complete_full_successful_checkout_happy_path__passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:28.808Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-6f4c1-essful-checkout-Happy-Path--webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-be6db266c9c9942281f3",
+              "file": "saucedemo.spec.ts",
+              "line": 174,
+              "column": 7
+            },
+            {
+              "title": "Attempt checkout with an empty cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1080,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/attempt_checkout_with_an_empty_cart_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:30.094Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-b26c2-checkout-with-an-empty-cart-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-c57384799f1d34dde8bb",
+              "file": "saucedemo.spec.ts",
+              "line": 206,
+              "column": 7
+            },
+            {
+              "title": "Checkout form validation errors - Error: First Name is required",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1244,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/checkout_form_validation_errors_error_first_name_is_required_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:31.187Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-56040-rror-First-Name-is-required-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-bea7ee2e8e07298412cd",
+              "file": "saucedemo.spec.ts",
+              "line": 232,
+              "column": 9
+            },
+            {
+              "title": "Checkout form validation errors - Error: Last Name is required",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1226,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/checkout_form_validation_errors_error_last_name_is_required_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:32.445Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-52504-Error-Last-Name-is-required-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-e8f226abfb4e1c9d6b7f",
+              "file": "saucedemo.spec.ts",
+              "line": 232,
+              "column": 9
+            },
+            {
+              "title": "Checkout form validation errors - Error: Postal Code is required",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1216,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/checkout_form_validation_errors_error_postal_code_is_required_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:33.683Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-5c435-ror-Postal-Code-is-required-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-57900a2c05a3187fdaa1",
+              "file": "saucedemo.spec.ts",
+              "line": 232,
+              "column": 9
+            },
+            {
+              "title": "Cancel checkout at Information step",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1121,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/cancel_checkout_at_information_step_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:34.911Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-f5174-heckout-at-Information-step-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-8437e9a5d7fd4e4d6fe8",
+              "file": "saucedemo.spec.ts",
+              "line": 251,
+              "column": 7
+            },
+            {
+              "title": "Cancel checkout at Overview step",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1577,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/cancel_checkout_at_overview_step_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:36.047Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-3-Checko-d8538-l-checkout-at-Overview-step-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-af25d6325fbb1f4a2308",
+              "file": "saucedemo.spec.ts",
+              "line": 268,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Feature 4: Application Menu & State",
+          "file": "saucedemo.spec.ts",
+          "line": 289,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Reset App State clears the cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 669,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/reset_app_state_clears_the_cart_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:21.005Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-4-Applic-83418-t-App-State-clears-the-cart-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-ceca3b80889c762722bf",
+              "file": "saucedemo.spec.ts",
+              "line": 296,
+              "column": 7
+            },
+            {
+              "title": "Log out from side menu",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 448,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/log_out_from_side_menu_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:21.685Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-4-Applic-4044a-tate-Log-out-from-side-menu-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-c5ad25921ab7170e8f68",
+              "file": "saucedemo.spec.ts",
+              "line": 321,
+              "column": 7
+            },
+            {
+              "title": "Reset App State clears the cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1118,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/reset_app_state_clears_the_cart_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:53.705Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-4-Applic-83418-t-App-State-clears-the-cart-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-f222901c50c4ac6dd802",
+              "file": "saucedemo.spec.ts",
+              "line": 296,
+              "column": 7
+            },
+            {
+              "title": "Log out from side menu",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 704,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/log_out_from_side_menu_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:54.835Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-4-Applic-4044a-tate-Log-out-from-side-menu-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-6cf5872d19eb432ff0a9",
+              "file": "saucedemo.spec.ts",
+              "line": 321,
+              "column": 7
+            },
+            {
+              "title": "Reset App State clears the cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1603,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/reset_app_state_clears_the_cart_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:37.637Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-4-Applic-83418-t-App-State-clears-the-cart-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-955eaaa47d13b37e5ab7",
+              "file": "saucedemo.spec.ts",
+              "line": 296,
+              "column": 7
+            },
+            {
+              "title": "Log out from side menu",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1010,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/log_out_from_side_menu_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:39.258Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-4-Applic-4044a-tate-Log-out-from-side-menu-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-2af70999395ccaee0747",
+              "file": "saucedemo.spec.ts",
+              "line": 321,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Feature 5: Persona Specific Bugs & Edge Cases",
+          "file": "saucedemo.spec.ts",
+          "line": 336,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Problem user image display issue",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 503,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/problem_user_image_display_issue_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:22.145Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-5-Person-e8afa-em-user-image-display-issue-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-a55d067edaa572449353",
+              "file": "saucedemo.spec.ts",
+              "line": 337,
+              "column": 7
+            },
+            {
+              "title": "Error user cannot finish checkout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 619,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/error_user_cannot_finish_checkout_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:22.659Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-5-Person-37f26-user-cannot-finish-checkout-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-ee0900e76c8330375a31",
+              "file": "saucedemo.spec.ts",
+              "line": 357,
+              "column": 7
+            },
+            {
+              "title": "Problem user image display issue",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 670,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/problem_user_image_display_issue_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:55.550Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-5-Person-e8afa-em-user-image-display-issue-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-66898842f9751a0789c8",
+              "file": "saucedemo.spec.ts",
+              "line": 337,
+              "column": 7
+            },
+            {
+              "title": "Error user cannot finish checkout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 923,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/error_user_cannot_finish_checkout_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:56.231Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-5-Person-37f26-user-cannot-finish-checkout-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-9138a665ceed5f1ab49d",
+              "file": "saucedemo.spec.ts",
+              "line": 357,
+              "column": 7
+            },
+            {
+              "title": "Problem user image display issue",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1425,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/problem_user_image_display_issue_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:40.282Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-5-Person-e8afa-em-user-image-display-issue-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-bee093f00b0188d1e7f7",
+              "file": "saucedemo.spec.ts",
+              "line": 337,
+              "column": 7
+            },
+            {
+              "title": "Error user cannot finish checkout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1259,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[Screenshot captured] Saved last-step state to: screenshots/error_user_cannot_finish_checkout_passed.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:41.718Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/saucedemo-Feature-5-Person-37f26-user-cannot-finish-checkout-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c2625c6980b843532576-480fa688bcce763725d8",
+              "file": "saucedemo.spec.ts",
+              "line": 357,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "shopping.spec.ts",
+      "file": "shopping.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "SauceDemo - Shopping & Checkout Flow Tests",
+          "file": "shopping.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should login as standard_user and add item to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 378,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:23.289Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/shopping-SauceDemo---Shopp-13b6b-d-user-and-add-item-to-cart-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f177f4eaa9abb9f5894f-33162b45469f7aa2ca8f",
+              "file": "shopping.spec.ts",
+              "line": 9,
+              "column": 7
+            },
+            {
+              "title": "should complete standard user checkout flow from inventory",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 526,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:23.681Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/shopping-SauceDemo---Shopp-16737-heckout-flow-from-inventory-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f177f4eaa9abb9f5894f-193d0694198f5eb87575",
+              "file": "shopping.spec.ts",
+              "line": 24,
+              "column": 7
+            },
+            {
+              "title": "should login as standard_user and add item to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 654,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:57.167Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/shopping-SauceDemo---Shopp-13b6b-d-user-and-add-item-to-cart-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f177f4eaa9abb9f5894f-c554e3190cee3ed6bed7",
+              "file": "shopping.spec.ts",
+              "line": 9,
+              "column": 7
+            },
+            {
+              "title": "should complete standard user checkout flow from inventory",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1006,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:12:57.833Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/shopping-SauceDemo---Shopp-16737-heckout-flow-from-inventory-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f177f4eaa9abb9f5894f-ed37cd6f526db015b56d",
+              "file": "shopping.spec.ts",
+              "line": 24,
+              "column": 7
+            },
+            {
+              "title": "should login as standard_user and add item to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 893,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:42.990Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/shopping-SauceDemo---Shopp-13b6b-d-user-and-add-item-to-cart-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f177f4eaa9abb9f5894f-fb3689d11a33f784df0f",
+              "file": "shopping.spec.ts",
+              "line": 9,
+              "column": 7
+            },
+            {
+              "title": "should complete standard user checkout flow from inventory",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1022,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T15:13:43.897Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Saucedemo_playwrite_autotests/Saucedemo_playwrite_autotests/test-results/shopping-SauceDemo---Shopp-16737-heckout-flow-from-inventory-webkit/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f177f4eaa9abb9f5894f-aba45ee443366502dc39",
+              "file": "shopping.spec.ts",
+              "line": 24,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-08-01T15:12:02.794Z",
+    "duration": 102205.969,
+    "expected": 87,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
