@@ -13,6 +13,9 @@ jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
@@ -27,6 +30,17 @@ jobs:
         BASE_URL: https://www.saucedemo.com/
         SAUCE_PASSWORD: ${{ secrets.SAUCE_PASSWORD }}
       run: npm test
+    - name: Generate Summary Report
+      if: ${{ !cancelled() }}
+      run: node utils/generate-summary.js
+    - name: Add Job Summary
+      if: ${{ !cancelled() }}
+      run: cat playwright-report/summary.md >> $GITHUB_STEP_SUMMARY
+    - name: Post PR Comment
+      uses: marocchino/sticky-pull-request-comment@v2
+      if: always() && github.event_name == 'pull_request'
+      with:
+        path: playwright-report/summary.md
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
