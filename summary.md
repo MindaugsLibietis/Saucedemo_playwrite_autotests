@@ -1,11 +1,56 @@
 ### 🎭 Playwright Test Run Summary
 
-* **Run Status:** ✅ PASSED
+* **Run Status:** ❌ FAILED
 * **Triggered by:** `MindaugsLibietis` on `main`
 * 🔗 **[View Live HTML Report with Screenshots](https://MindaugsLibietis.github.io/Saucedemo_playwrite_autotests/)**
 
 | Total Tests | Passed ✅ | Failed ❌ | Flaky ⚠️ | Skipped ⏭️ | Duration |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **87** | 87 | 0 | 0 | 0 | 99.31s |
+| **87** | 84 | 1 | 2 | 0 | 107.13s |
 
-🎉 **All tests passed successfully!**
+#### 🔍 Failed Tests Details
+
+<details>
+<summary><b>1. Feature 5: Persona Specific Bugs & Edge Cases > Problem user image display issue</b></summary>
+
+```
+Error: expect(received).toBeGreaterThan(expected)
+
+Expected: > 0
+Received:   0
+Error: expect(received).toBeGreaterThan(expected)
+
+Expected: > 0
+Received:   0
+Error: expect(received).toBeGreaterThan(expected)
+
+Expected: > 0
+Received:   0
+```
+
+</details>
+
+<details>
+<summary><b>2. Feature 5: Persona Specific Bugs & Edge Cases > Problem user image display issue</b></summary>
+
+```
+Error: expect(received).toBeGreaterThan(expected)
+
+Expected: > 0
+Received:   0
+```
+
+</details>
+
+<details>
+<summary><b>3. Feature 5: Persona Specific Bugs & Edge Cases > Problem user image display issue</b></summary>
+
+```
+Error: expect(received).toBeGreaterThan(expected)
+
+Expected: > 0
+Received:   0
+```
+
+</details>
+
