@@ -6,7 +6,7 @@
 
 | Total Tests | Passed ✅ | Failed ❌ | Flaky ⚠️ | Skipped ⏭️ | Duration |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **87** | 84 | 1 | 2 | 0 | 107.13s |
+| **87** | 85 | 1 | 1 | 0 | 105.14s |
 
 #### 🔍 Failed Tests Details
 
@@ -32,18 +32,6 @@ Received:   0
 
 <details>
 <summary><b>2. Feature 5: Persona Specific Bugs & Edge Cases > Problem user image display issue</b></summary>
-
-```
-Error: expect(received).toBeGreaterThan(expected)
-
-Expected: > 0
-Received:   0
-```
-
-</details>
-
-<details>
-<summary><b>3. Feature 5: Persona Specific Bugs & Edge Cases > Problem user image display issue</b></summary>
 
 ```
 Error: expect(received).toBeGreaterThan(expected)
