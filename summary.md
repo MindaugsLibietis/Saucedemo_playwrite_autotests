@@ -6,51 +6,32 @@
 
 | Total Tests | Passed ✅ | Failed ❌ | Flaky ⚠️ | Skipped ⏭️ | Duration |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **87** | 84 | 1 | 2 | 0 | 100.54s |
+| **87** | 85 | 1 | 1 | 0 | 110.14s |
 
 #### 🔍 Failed Tests Details
 
 <details>
-<summary><b>1. SauceDemo - Login Tests > should login successfully as performance_glitch_user</b></summary>
+<summary><b>1. Feature 5: Persona Specific Bugs & Edge Cases > Problem user image display issue</b></summary>
 
 ```
-Error: expect(locator).toHaveText(expected) failed
+Error: expect(received).toBeGreaterThan(expected)
 
-Locator: locator('.title')
-Expected: "Products"
-Timeout: 5000ms
-Error: element(s) not found
+Expected: > 0
+Received:   0
+Error: expect(received).toBeGreaterThan(expected)
 
-Call log:
-  - Expect "toHaveText" with timeout 5000ms
-  - waiting for locator('.title')
+Expected: > 0
+Received:   0
+Error: expect(received).toBeGreaterThan(expected)
 
+Expected: > 0
+Received:   0
 ```
 
 </details>
 
 <details>
 <summary><b>2. Feature 5: Persona Specific Bugs & Edge Cases > Problem user image display issue</b></summary>
-
-```
-Error: expect(received).toBeGreaterThan(expected)
-
-Expected: > 0
-Received:   0
-Error: expect(received).toBeGreaterThan(expected)
-
-Expected: > 0
-Received:   0
-Error: expect(received).toBeGreaterThan(expected)
-
-Expected: > 0
-Received:   0
-```
-
-</details>
-
-<details>
-<summary><b>3. Feature 5: Persona Specific Bugs & Edge Cases > Problem user image display issue</b></summary>
 
 ```
 Error: expect(received).toBeGreaterThan(expected)
