@@ -6,7 +6,7 @@
 
 | Total Tests | Passed ✅ | Failed ❌ | Flaky ⚠️ | Skipped ⏭️ | Duration |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **87** | 84 | 1 | 2 | 0 | 114.85s |
+| **87** | 84 | 1 | 2 | 0 | 121.34s |
 
 #### 🔍 Failed Tests Details
 
